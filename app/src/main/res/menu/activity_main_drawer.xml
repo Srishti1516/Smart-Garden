@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_activity1"
+            android:icon="@drawable/ic_menu_activity"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_activity5"
+            android:icon="@drawable/ic_menu_activity"
+            android:title="My plants" />
+        <item
+            android:id="@+id/nav_activity6"
+            android:icon="@drawable/ic_menu_activity"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_activity7"
+            android:icon="@drawable/ic_menu_activity"
+            android:title="Plant Selector" />
+        <item
+            android:id="@+id/nav_activity8"
+            android:icon="@drawable/ic_menu_activity"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_activity9"
+            android:icon="@drawable/ic_menu_activity"
+            android:title="Sign Out" />
+    </group>
+</menu>

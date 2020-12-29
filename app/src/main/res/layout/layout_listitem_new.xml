@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout1"
+    android:padding="5dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/group_name1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_toEndOf="@+id/image"
+        android:layout_toRightOf="@+id/image"
+        android:text="Community name"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@id/group_name1"
+        android:layout_alignRight="@id/group_name1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-64dp"
+        android:layout_marginRight="-64dp"
+        android:src="@drawable/ic_group_add" />
+</RelativeLayout>

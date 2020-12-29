@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.androidmads.navdraweractivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:9:5-67
+14-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+16-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:11:5-81
+16-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:13:5-98
+18-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:13:22-95
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e75c00d3e9d0a7965e929d4f4d94c023\play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e75c00d3e9d0a7965e929d4f4d94c023\play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e75c00d3e9d0a7965e929d4f4d94c023\play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:15:5-99:19
+25        android:name="com.androidmads.navdraweractivity.notification"
+25-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:16:9-37
+26        android:allowBackup="true"
+26-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:17:9-35
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e80327cc5b6d14150f74585b4aa35cdb\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:18:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:19:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:20:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:21:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:22:9-40
+35        <activity android:name="com.androidmads.navdraweractivity.map" />
+35-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:23:9-50
+35-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:23:19-38
+36        <activity android:name="com.androidmads.navdraweractivity.TabActivity_3" />
+36-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:24:9-51
+36-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:24:19-48
+37        <activity android:name="com.androidmads.navdraweractivity.TabActivity_2" />
+37-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:25:9-51
+37-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:25:19-48
+38        <activity android:name="com.androidmads.navdraweractivity.grp_map" />
+38-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:26:9-45
+38-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:26:19-42
+39        <activity
+39-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:27:9-30:59
+40            android:name="com.androidmads.navdraweractivity.TabActivity_1"
+40-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:28:13-42
+41            android:label="@string/title_activity_tab_1"
+41-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:29:13-57
+42            android:theme="@style/AppTheme.NoActionBar" />
+42-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:30:13-56
+43        <activity
+43-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:31:9-34:59
+44            android:name="com.androidmads.navdraweractivity.grp_main"
+44-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:32:13-37
+45            android:label="@string/title_activity_grp_main"
+45-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:33:13-60
+46            android:theme="@style/AppTheme.NoActionBar" />
+46-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:34:13-56
+47        <activity android:name="com.androidmads.navdraweractivity.start" />
+47-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:35:9-43
+47-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:35:19-40
+48        <activity android:name="com.androidmads.navdraweractivity.grp_users" />
+48-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:36:9-47
+48-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:36:19-44
+49        <activity android:name="com.androidmads.navdraweractivity.grp_allplants" />
+49-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:37:9-51
+49-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:37:19-48
+50        <activity android:name="com.androidmads.navdraweractivity.grp_plantselector" />
+50-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:38:9-55
+50-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:38:19-52
+51        <activity android:name="com.androidmads.navdraweractivity.grp_myplants" />
+51-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:39:9-50
+51-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:39:19-47
+52        <activity android:name="com.androidmads.navdraweractivity.join_group" />
+52-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:40:9-48
+52-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:40:19-45
+53        <activity android:name="com.androidmads.navdraweractivity.groups" />
+53-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:41:9-44
+53-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:41:19-41
+54        <activity android:name="com.androidmads.navdraweractivity.grp_registration" />
+54-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:42:9-54
+54-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:42:19-51
+55
+56        <meta-data
+56-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:44:9-46:55
+57            android:name="com.google.android.geo.API_KEY"
+57-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:45:13-58
+58            android:value="@string/google_maps_key" />
+58-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:46:13-52
+59
+60        <activity
+60-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:48:9-50:59
+61            android:name="com.androidmads.navdraweractivity.MapsActivity"
+61-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:49:13-41
+62            android:label="@string/title_activity_maps" />
+62-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:50:13-56
+63        <activity android:name="com.androidmads.navdraweractivity.Main9Activity" />
+63-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:51:9-51
+63-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:51:19-48
+64        <activity
+64-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:52:9-55:59
+65            android:name="com.androidmads.navdraweractivity.myplants"
+65-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:53:13-37
+66            android:label="@string/app_name"
+66-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:54:13-45
+67            android:theme="@style/AppTheme.NoActionBar" />
+67-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:55:13-56
+68        <activity
+68-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:56:9-58:60
+69            android:name="com.androidmads.navdraweractivity.Main7Activity"
+69-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:57:13-42
+70            android:label="@string/title_activity_main7" />
+70-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:58:13-57
+71        <activity android:name="com.androidmads.navdraweractivity.Main3Activity" />
+71-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:59:9-51
+71-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:59:19-48
+72        <activity
+72-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:60:9-63:59
+73            android:name="com.androidmads.navdraweractivity.Main8Activity"
+73-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:61:13-42
+74            android:label="@string/app_name"
+74-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:62:13-45
+75            android:theme="@style/AppTheme.NoActionBar" />
+75-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:63:13-56
+76        <activity
+76-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:64:9-67:59
+77            android:name="com.androidmads.navdraweractivity.FirstActivity"
+77-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:65:13-42
+78            android:label="@string/app_name"
+78-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:66:13-45
+79            android:theme="@style/AppTheme.NoActionBar" />
+79-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:67:13-56
+80        <activity
+80-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:68:9-71:59
+81            android:name="com.androidmads.navdraweractivity.Main5Activity"
+81-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:69:13-42
+82            android:label="@string/app_name"
+82-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:70:13-45
+83            android:theme="@style/AppTheme.NoActionBar" />
+83-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:71:13-56
+84        <activity android:name="com.androidmads.navdraweractivity.reset" />
+84-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:72:9-43
+84-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:72:19-40
+85        <activity
+85-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:73:9-82:20
+86            android:name="com.androidmads.navdraweractivity.Main2Activity"
+86-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:74:13-42
+87            android:label="@string/app_name"
+87-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:75:13-45
+88            android:theme="@style/AppTheme.NoActionBar" >
+88-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:76:13-56
+89            <intent-filter>
+89-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:77:13-81:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:78:17-69
+90-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:78:25-66
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:80:17-77
+92-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:80:27-74
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:83:9-86:59
+96            android:name="com.androidmads.navdraweractivity.SecondActivity"
+96-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:84:13-43
+97            android:label="@string/app_name"
+97-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:85:13-45
+98            android:theme="@style/AppTheme.NoActionBar" />
+98-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:86:13-56
+99        <activity
+99-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:87:9-90:59
+100            android:name="com.androidmads.navdraweractivity.Main4Activity"
+100-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:88:13-42
+101            android:label="@string/app_name"
+101-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:89:13-45
+102            android:theme="@style/AppTheme.NoActionBar" />
+102-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:90:13-56
+103        <activity
+103-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:91:9-94:59
+104            android:name="com.androidmads.navdraweractivity.Main6Activity"
+104-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:92:13-42
+105            android:label="@string/app_name"
+105-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:93:13-45
+106            android:theme="@style/AppTheme.NoActionBar" />
+106-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:94:13-56
+107
+108        <service
+108-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:96:9-98:72
+109            android:name="com.androidmads.navdraweractivity.BGJobService"
+109-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:97:13-41
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->C:\Users\HRITIK\Downloads\updated_app\NavDrawerActivity-master\app\src\main\AndroidManifest.xml:98:13-69
+111
+112        <activity
+112-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+113            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+113-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+114            android:excludeFromRecents="true"
+114-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+115            android:exported="true"
+115-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+116            android:launchMode="singleTask"
+116-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+117            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+117-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+119
+120        <service
+120-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+121            android:name="com.google.firebase.components.ComponentDiscoveryService"
+121-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+122            android:exported="false" >
+122-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+123            <meta-data
+123-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+124                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+124-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\bc70d3f9e645d9eb30380ca01e7ddc22\firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+126        </service>
+127
+128        <provider
+128-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e2a6a11e165ab9df704ccb5496cfd6d4\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+129            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+129-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e2a6a11e165ab9df704ccb5496cfd6d4\extensions-1.1.1\AndroidManifest.xml:24:13-83
+130            android:authorities="com.androidmads.navdraweractivity.lifecycle-trojan"
+130-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e2a6a11e165ab9df704ccb5496cfd6d4\extensions-1.1.1\AndroidManifest.xml:25:13-68
+131            android:exported="false"
+131-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e2a6a11e165ab9df704ccb5496cfd6d4\extensions-1.1.1\AndroidManifest.xml:26:13-37
+132            android:multiprocess="true" /> <!-- Needs to be explicitly declared on P+ -->
+132-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e2a6a11e165ab9df704ccb5496cfd6d4\extensions-1.1.1\AndroidManifest.xml:27:13-40
+133        <uses-library
+133-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e75c00d3e9d0a7965e929d4f4d94c023\play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+134            android:name="org.apache.http.legacy"
+134-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e75c00d3e9d0a7965e929d4f4d94c023\play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+135            android:required="false" />
+135-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e75c00d3e9d0a7965e929d4f4d94c023\play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+136
+137        <activity
+137-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e3099342a38a00991a155aa8c41ed241\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+138            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+138-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e3099342a38a00991a155aa8c41ed241\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+139            android:exported="false"
+139-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e3099342a38a00991a155aa8c41ed241\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+140-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\e3099342a38a00991a155aa8c41ed241\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+141
+142        <provider
+142-->[com.google.firebase:firebase-common:16.0.4] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\7f04516a816a5346c6b2b5ec1e8a28cd\firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+143            android:name="com.google.firebase.provider.FirebaseInitProvider"
+143-->[com.google.firebase:firebase-common:16.0.4] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\7f04516a816a5346c6b2b5ec1e8a28cd\firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+144            android:authorities="com.androidmads.navdraweractivity.firebaseinitprovider"
+144-->[com.google.firebase:firebase-common:16.0.4] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\7f04516a816a5346c6b2b5ec1e8a28cd\firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:16.0.4] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\7f04516a816a5346c6b2b5ec1e8a28cd\firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:16.0.4] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\7f04516a816a5346c6b2b5ec1e8a28cd\firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\574028338cf12da10c6078c6249a986d\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\574028338cf12da10c6078c6249a986d\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\574028338cf12da10c6078c6249a986d\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+151        <meta-data
+151-->[com.android.support:support-v4:26.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\4392216f94db0401d34995ab24aa09c7\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+152            android:name="android.support.VERSION"
+152-->[com.android.support:support-v4:26.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\4392216f94db0401d34995ab24aa09c7\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+153            android:value="26.1.0" />
+153-->[com.android.support:support-v4:26.1.0] C:\Users\HRITIK\.gradle\caches\transforms-2\files-2.1\4392216f94db0401d34995ab24aa09c7\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+154    </application>
+155
+156</manifest>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Urban Gardening</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main7">Main7Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="prompt">Choose a slot</string>
+    <string-array name="slots_array">
+        <item>Once a week</item>
+        <item>Twice a week</item>
+        <item>Once in fifteen days</item>
+        <item>Thrice a week</item>
+    </string-array>
+    <string name="title_activity_grp_main">grp_main</string>
+    <string name="title_activity_tab_1">TabActivity_1</string>
+</resources>
